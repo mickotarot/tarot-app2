@@ -249,7 +249,7 @@ document.getElementById("drawButton").addEventListener("click", () => {
 
   selected.forEach((card, index) => {
     const isUpright = Math.random() > 0.5;
-    const label = index === 0 ? "潜在意識" : index === 1 ? "健在意識" : "今、必要なメッセージ";
+    const label = index === 0 ? "潜在意識" : index === 1 ? "顕在意識" : "今、必要なメッセージ";
 
     document.getElementById(`card${index + 1}`).innerHTML = `
       <strong>${label}｜${card.name}（${isUpright ? "正位置" : "逆位置"}）</strong>
