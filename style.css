@@ -7,7 +7,6 @@ body {
 
 h1 {
   color: #6a0dad;
-  margin-bottom: 20px;
 }
 
 button {
@@ -34,19 +33,17 @@ button:hover {
 }
 
 .card {
-  background: #fff;
+  background: #ffffff;
   border-radius: 16px;
   padding: 16px;
   width: 200px;
   box-shadow: 0 6px 10px rgba(0,0,0,0.15);
-  animation: fadeUp 0.5s ease;
 }
 
 .card strong {
   display: block;
   margin-bottom: 10px;
   color: #6a0dad;
-  font-size: 15px;
 }
 
 .card p {
@@ -57,15 +54,4 @@ button:hover {
 
 .hidden {
   display: none;
-}
-
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
